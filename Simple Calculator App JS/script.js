@@ -42,7 +42,7 @@ const calculate = () => {
             result = parseFloat(prevNumber) / parseFloat(currentNumber);
             break;
         default:
-			result = parseFloat(currentNumber);
+            result = parseFloat(currentNumber);
             break;
     }
     currentNumber = result;
